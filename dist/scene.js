@@ -1,4 +1,4 @@
-import './ui.js';
+import './ui.js?v=20261031-layout2';
 import * as T from './three.module.js';
 import {GLTFLoader} from './vendor/GLTFLoader.js';
 import {RoomEnvironment} from './vendor/RoomEnvironment.js';

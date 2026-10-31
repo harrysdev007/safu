@@ -31,7 +31,7 @@ http.createServer(async (req, res) => {
       'Content-Type': mime[path.extname(file)] || 'application/octet-stream',
       'Content-Length': info.size,
       'X-Content-Type-Options': 'nosniff',
-      'Cache-Control': path.extname(file) === '.html' ? 'no-cache' : 'public, max-age=3600'
+      'Cache-Control': ['.html', '.css', '.js'].includes(path.extname(file)) ? 'no-cache' : 'public, max-age=3600'
     });
     if (req.method === 'HEAD') return res.end();
     createReadStream(file).on('error', () => res.destroy()).pipe(res);
