@@ -1,0 +1,12 @@
+{
+  "name": "safuhands",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SAFUHANDS — bilingual interactive 3D community website",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check dist/scene.js && node --check dist/ui.js"
+  }
+}
