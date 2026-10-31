@@ -28,7 +28,7 @@ npm run check
 
 ## Project status
 
-This is a pre-launch community concept, not a deployed token or smart contract. The displayed planned buy and sell fees are 3% and 5%. The designated fee recipient is `0x420ef1f25563593af5fe3f9b9d3bc56a8bd8c104`, an address published in the [official Binance SAFU FAQ](https://www.binance.com/en/support/faq/detail/028799e730294ae4a9b382d60d350116). The site includes the source and a BNB Chain explorer link; it does not execute transfers.
+This is a pre-launch community concept, not a deployed token or smart contract. The displayed planned buy and sell fees are 2% and 2%. The designated fee recipient is `0x420ef1f25563593af5fe3f9b9d3bc56a8bd8c104`, an address published in the [official Binance SAFU FAQ](https://www.binance.com/en/support/faq/detail/028799e730294ae4a9b382d60d350116). The site includes the source and a BNB Chain explorer link; it does not execute transfers.
 
 The project is independent and is not affiliated with or endorsed by Binance or SAFU.
 
